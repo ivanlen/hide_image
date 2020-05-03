@@ -1,7 +1,8 @@
 # Hybrid image
 
-Make an hybrid image that can be seen with motion blur, when scrolling or because of wiggling.
+Make an hybrid image that can be seen when scrolling, wiggling or motion blur.
 
+__keywords__: stereogram, hybdrid image, python, image processing 
 
 ```
 Usage:
