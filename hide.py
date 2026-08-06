@@ -36,7 +36,7 @@ def blend(target_im_path, base_im_path, alpha):
     new_size, _ = im_target.size
 
     im_base = im_base_orig.copy()
-    im_base.thumbnail((new_size, new_size), Image.ANTIALIAS)
+    im_base.thumbnail((new_size, new_size), Image.Resampling.LANCZOS)
 
     float_alpha = alpha if alpha < 1 else alpha / 100
     im_target_np = np.array(im_target)
